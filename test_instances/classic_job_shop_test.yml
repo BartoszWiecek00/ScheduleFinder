@@ -1,0 +1,91 @@
+[
+    {
+      "input_path": "test_instances/JSP/la01.txt",
+      "out_path": "test_out/JSP/la01",
+      "type": "classic",
+      "ABC_parameters": {
+        "population_size": 25,
+        "limit": 15,
+        "local_search_max_iter": 8,
+        "local_search_probability": 0.5,
+        "max_iter": 200,
+        "stagnancy_terminate_limit": 75,
+        "optimal_duration": 666
+      }
+    },
+
+  {
+    "input_path": "test_instances/JSP/orb09.txt",
+    "out_path": "test_out/JSP/orb09",
+    "type": "classic",
+    "ABC_parameters": {
+      "population_size": 50,
+      "limit": 20,
+      "local_search_max_iter": 10,
+      "local_search_probability": 0.7,
+      "max_iter": 800,
+      "stagnancy_terminate_limit": 75,
+      "optimal_duration": 934
+    }
+  },
+
+  {
+    "input_path": "test_instances/JSP/la26.txt",
+    "out_path": "test_out/JSP/la26",
+    "type": "classic",
+    "ABC_parameters": {
+      "population_size": 150,
+      "limit": 20,
+      "local_search_max_iter": 15,
+      "local_search_probability": 0.7,
+      "max_iter": 1000,
+      "stagnancy_terminate_limit": 65,
+      "optimal_duration": 1218
+    }
+  },
+
+  {
+    "input_path": "test_instances/FJSP/Kacem1.txt",
+    "out_path": "test_out/FJSP/Kacem1",
+    "type": "flexible",
+    "ABC_parameters": {
+      "population_size": 65,
+      "limit": 20,
+      "local_search_max_iter": 10,
+      "local_search_probability": 0.5,
+      "max_iter": 800,
+      "stagnancy_terminate_limit": 75,
+      "optimal_duration": 11
+    }
+  },
+
+  {
+    "input_path": "test_instances/FJSP/car7-vdata.txt",
+    "out_path": "test_out/FJSP/car7-vdata",
+    "type": "flexible",
+    "ABC_parameters": {
+      "population_size": 100,
+      "limit": 20,
+      "local_search_max_iter": 20,
+      "local_search_probability": 0.8,
+      "max_iter": 900,
+      "stagnancy_terminate_limit": 60,
+      "optimal_duration": 4216
+    }
+  },
+
+  {
+    "input_path": "test_instances/FJSP/la16-rdata.txt",
+    "out_path": "test_out/FJSP/la16-rdata",
+    "type": "flexible",
+    "ABC_parameters": {
+      "population_size": 160,
+      "limit": 20,
+      "local_search_max_iter": 25,
+      "local_search_probability": 0.85,
+      "max_iter": 1000,
+      "stagnancy_terminate_limit": 70,
+      "optimal_duration": 717,
+    }
+  },
+]
